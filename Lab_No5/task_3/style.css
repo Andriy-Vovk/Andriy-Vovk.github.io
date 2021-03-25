@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+}
+    div{
+      border: 1px solid black;
+    }
+    .fullwrap,.wrap{
+      position: relative;
+    }
+    .headblock,.main,.sidebar,.footblock{
+      position: absolute;
+    }
+    .headblock,.wrap,.main,.footblock{
+      left:10px;
+    }
+    .headblock,.main,.sidebar{
+      top: 15px;
+    }
+    .headblock,.wrap,.footblock{
+      width: 700px;
+    }
+    .main,.sidebar{
+      height: 505px;
+    }
+
+.fullwrap {
+    width: 725px;
+    height:825px;
+    margin: auto;
+  }
+  .headblock { 
+    height: 100px;
+  }
+  .wrap {
+    top:140px;
+    height: 540px;
+  }
+  .main{
+    width: 52%;
+  }
+  .sidebar{
+    right:10px;
+    width: 40%;
+
+  }
+  .footblock {
+    bottom: 15px;
+    height: 100px;
+  }
