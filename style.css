@@ -2,11 +2,15 @@
 margin:0;
 box-sizing:border-box;
 }
-h1{
+h1,h2{
     text-align: center;
     color:purple;
+
 }
-.navigation{
+img {
+    width:30%;
+}
+.information,.navigation{
     font-size: 24px;
     display: flex ;
     justify-content: space-around;
@@ -19,5 +23,5 @@ ol{
     padding:0;
 }
 ul{
-    list-style-type:none;
-}
+    list-style-type:square;
+} 
