@@ -2,27 +2,25 @@
     margin:0;
     box-sizing:border-box;
 }
-    h1,h2{
-        text-align: center;
-        color:purple;
-    
-    }
-    .prof_pic {
-        width:416px;
-        height:410px;
-    }
-    .information,.navigation{
+h1,h2{
+   text-align: center;
+   color:purple;
+}
+.prof_pic {
+   height:410px;
+}
+.information,.navigation{
         font-size: 24px;
         display: flex ;
         justify-content: space-around;
-    }
-    body {
-        background-size: 100%;
-        background-image: url("1105694.jpg");
-    }
-    ol{
-        padding:0;
-    }
-    ul{
-        list-style-type:square;
-    } 
+  }
+body {
+    background-size: 100%;
+    background-image: url("1105694.jpg");
+}
+ol{
+   padding:0;
+}
+ul{
+   list-style-type:square;
+} 
