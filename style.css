@@ -7,7 +7,7 @@ h1,h2{
     color:purple;
 
 }
-prof_pic {
+.prof_pic {
     width:30%;
 }
 .information,.navigation{
