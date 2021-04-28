@@ -123,7 +123,7 @@ p,.workshop__navigation,ol{
     font-size: 20px;
     text-decoration: none;
 }
-.block__main,.workshop{
+.main,.workshop{
     background-attachment: fixed;
     background-size: 100%;
 }
