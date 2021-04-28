@@ -108,13 +108,6 @@ ul{
     width: 100%;
     height: 40px; 
 }
-.telephone,.gmail,.telegram{
-    border-radius: 50%;
-    border:1px solid black;
-    width: 50px;
-    height: 50px;
-    margin-right: 20px;
-}
 p,.workshop__navigation,ol{
     color: white;
 }
@@ -130,4 +123,8 @@ p,.workshop__navigation,ol{
 .header__navigation a:hover{
     color: orange;
     font-weight: bold;
+}
+.telegram,.phone,.gmail{
+    margin-right: 10px;
+    color:black;
 }
