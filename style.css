@@ -108,6 +108,10 @@ ul{
     width: 100%;
     height: 40px; 
 }
+.telegram,.phone,.gmail{
+    margin-right: 10px;
+    color:black;
+}
 p,.workshop__navigation,ol{
     color: white;
 }
@@ -124,7 +128,4 @@ p,.workshop__navigation,ol{
     color: orange;
     font-weight: bold;
 }
-.telegram,.phone,.gmail{
-    margin-right: 10px;
-    color:black;
-}
+
