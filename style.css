@@ -124,4 +124,7 @@ p,.workshop__navigation,ol{
     color: orange;
     font-weight: bold;
 }
-
+.telegram,.phone,.gmail{
+    margin-right: 10px;
+    color:black;
+}
