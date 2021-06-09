@@ -108,9 +108,11 @@ ul{
     flex-direction: column;
     width: 100%;
     min-height: 40px; 
+    padding-top: 20px;
 }
 .footer__contacts a{
     text-decoration: none;
+    margin: 5px;
 }
 .header__navigation a{
     position: relative;
@@ -161,7 +163,23 @@ p,.workshop__navigation,ol{
 .workshop__labs a:hover:before{
     background-position: -65px;
 }
+.gmail {
+    width: 225px; height: 225px;
+    background: url('img/css_sprites.png') -315px -3px;
+    background-size: 625%;
+}
+.phone {
+    width: 860px; height: 900px;
+    background: url("img/css_sprites.png") -493px 0px;
+    background-size: 155%;
+}
+.telegram {
+    width: 225px; height: 225px;
+    background: url('img/css_sprites.png') -366px -2px;
+    background-size: 618%;
+}
 .telegram,.phone,.gmail{
-    
+    width: 50px; height: 50px;
+    border-radius: 50%;
     color:black;
 }
