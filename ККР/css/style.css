@@ -1,0 +1,268 @@
+*{
+margin:0;
+padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: white;
+    font-size: 14px;
+}
+.header{
+    width: 100%;
+    background: #f6f2f2;
+    min-height: 370px;
+}
+.container{
+    max-width: 1249px;
+    margin: 0 auto;
+}
+.header__menu{
+    text-align: center;
+    background: #313030;
+    
+    padding: 20px 0 ;
+}
+.header__menu a{
+    font-size: 10px;
+    font-weight: bold;
+    padding: 20px 10px;
+}
+a{
+    text-decoration: none;
+    color: #e0e0e0;
+}
+.header__content{
+    margin-top: 10px;
+    max-width: 1249px;
+    min-height: 350px;
+    text-align: center;
+}
+.provide{
+    position: relative;
+    padding-top: 30px;
+    width: 100%;
+    min-height: 695px;
+}
+.flexcont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content__title{
+font-weight: 900;
+font-size: 18px;
+}
+.content__video{
+margin: 10px auto;
+max-width: 95%;
+}
+.content__video img{
+    width: 100%;
+}
+.content__text{
+    font-size: 14px;
+    color: #9a9898;
+}
+.content__btn{
+    display: inline-block;
+    font-size: 14px;
+}
+.btn{
+    padding: 15px 20px;
+    background: red;
+    border-radius: 5px;
+}
+.title{
+    font-weight: bold;
+    font-size: 16px;
+}
+.sidebar__text{
+    font-size: 14px;
+}
+.provide__sidebar a{
+    color:red;
+    padding: 10px 20px;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.provide::after{
+    content: "";
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    background: #ececec;
+
+}
+.sidebar__btn{
+    display: inline-block;
+    margin-top: 20px;
+}
+.skills__section{
+    padding-top: 50px;
+}
+.section__image{
+    text-align: center;
+}
+.section__title{
+    color:#737373;
+    font-size: 18px;
+    text-align: center;
+}
+.section__text{
+    max-width: 300px;
+    text-align: justify;
+}
+.products{
+    position: relative;
+    padding-top: 30px;
+    width: 100%;
+    
+}
+.products .container,.portfolio .container, .team .container{
+    text-align: center;
+}
+.products__text,.team__text{
+    font-size: 14px;
+}
+.products::before,.team::before{
+    content: "";
+    right: 35%;
+    margin-top: 90px;
+    width: 30%;
+    height: 4px;
+    position: absolute;
+    background: red;
+}
+li{
+    list-style-type: none;
+    
+    font-size: 18px;
+    font-weight: bold;
+}
+li:nth-child(n+2){
+    display: none;
+}
+.portfolio__menu{
+    position: relative;
+    margin-top: 30px;
+}
+.portfolio__menu::after{
+    content: ">";
+    top:22px;
+    right: 48%;
+    position: absolute;
+    transform:rotate(90deg);
+}
+.portfolio__works,.team__works{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.works__item,.team__item{
+    width: 40%;
+    height: 100px;
+    margin-bottom: 10px;
+    background: #f5f0dd;
+}
+.team__member{margin: 35px 0;}
+.team__photo{
+    width: 80%;
+    height: 250px;
+    background: #f5f0dd;
+    margin: 0 auto;
+}
+.team__item{position: relative;}
+.team__social em{margin-right: 20px;}
+.team__item:nth-child(1)::after{
+    content: "SOKINA JUE";
+    position: absolute;
+    display: inline-block;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 20px;
+    background: #7a786e;
+    color: white;
+}
+.footer{
+background: #313030;
+}
+.footer .container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    font-size: 11px;
+    color: #9c9b9b;
+}
+.footer img{
+    width: 20px;
+    height: 20px;
+}
+@media(min-width:425px){
+    .content__title {
+        font-size: 20px;
+    }
+    .header__menu a {
+        font-size: 13px;
+    }
+    .content__text {
+        margin-top: 11%;
+        font-size: 16px;
+    }
+    .content__video {
+        margin: 42px auto;
+        max-width: 56%;
+        float: right;
+    }
+    .provide {
+        min-height: 300px;
+    }
+    .provide__sidebar {
+        text-align: center;
+    }
+    .provide__skills {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .section__text {
+        max-width: 170px;
+        font-size: 16px;
+    }
+    .products::before, .team::before {
+        margin-top: 13%;
+    }
+    .portfolio__menu {
+        margin-top: 51px;
+    }
+    .title {
+        font-size: 19px;
+    }
+    .sidebar__text {
+        font-size: 16px;
+    }
+    .section__title {
+        font-size: 20px;
+    }
+    .products__text, .team__text {
+        font-size: 15px;
+    }
+    li:nth-child(n){
+        display: inline-block;
+        margin-right: 5px;
+        font-size: 13px;
+    }
+    .portfolio__menu::after {
+      display: none;
+    }
+    .footer .container {
+        font-size: 15px;
+    }
+    .footer img {
+        width: 25px;
+        height: 25px;
+    }
+}
